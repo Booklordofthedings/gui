@@ -1,14 +1,13 @@
 FileVersion = 1
-Dependencies = {corlib = "*", LybLog = "*", raylib-beef = "*"}
+Dependencies = {corlib = "*", LybLog = "*", raylib-beef = "*", BeefBrand = "*", gon-beef = "*"}
 
 [Project]
-Name = "sui"
-StartupObject = "sui.Program"
+Name = "gui"
+StartupObject = "gui.Program"
 
 [Configs.Debug.Win64]
 CLibType = "Dynamic"
 BeefLibType = "Static"
 
 [Configs.Release.Win64]
-BuildKind = "StaticLib"
 CLibType = "Dynamic"

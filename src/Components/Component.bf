@@ -1,0 +1,15 @@
+namespace gui.Components;
+using raylib_beef;
+using gui.Math;
+using System;
+using System.Collections;
+//base class of a ui component
+class Component
+{
+	public String Name; //Name of the element                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+	public String ComponentName; //Name of the componentype
+	public Rect Bounds; //Bounding box collider
+	//Inner bounding boxes
+	public List<Circle> BoundingCircles;
+	public List<Rect> BoundingRect;
+}
