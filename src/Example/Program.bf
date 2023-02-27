@@ -1,10 +1,10 @@
 namespace gui;
 using System;
-using gui;
 class Program
 {
-	public static void Main()
-	{
-
-	}
+    static void Main()
+    {
+        Console.WriteLine("Hello World!");
+        Console.ReadLine(.. scope .());
+    }
 }
