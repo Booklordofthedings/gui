@@ -10,5 +10,5 @@ class Theme
     public static Color Info = Color(224,156,215,255);
     public static Color Success = Color(129,218,139,255);
     public static Color Warning = Color(224,220,110,255);
-    public static Color Error = Color(224,48,46);
+    public static Color Error = Color(224,48,46,255);
 }
